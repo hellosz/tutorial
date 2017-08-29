@@ -10,6 +10,6 @@ import scrapy
 
 class TutoiralItem(scrapy.Item):
     title = scrapy.Field()
-    name = scrapy.Field()
+    link = scrapy.Field()
     desc = scrapy.Field()
     pass
